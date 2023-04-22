@@ -1,0 +1,91 @@
+img {
+    display: flex;
+    /* height: 20vh;
+    width: 100%;  */
+    max-height: 20vh;
+    max-width: 20vw;
+    /* max-height: 200px;
+    max-width: 200px; */
+}
+nav {
+    display: flex;
+    background-color: green;
+    width: 100vw;
+    height: 5vh;
+    justify-content: center;
+    
+}
+
+html {
+    width: 100vw;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    height: 100%;
+
+}
+
+.nav:hover {
+    background-color: red;
+    color: white;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#player, #statContainer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+
+#mvpData {
+    display: flex;
+    background-color: crimson;
+    margin: .5%;
+    justify-content: space-around;
+    width: 35vw;
+}
+
+#stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    width: 5vw;
+    align-self: center;
+}
+
+
+@media only screen and (max-width:768px) {
+
+    #mvpData {
+        display: flex;
+        background-color: crimson;
+        margin: .5%;
+        justify-content: space-around;
+        width: 50vw;
+    }
+
+
+
+}
